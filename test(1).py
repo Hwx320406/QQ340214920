@@ -45,6 +45,6 @@ def add_teacher(pid):
 def run_main():
     pid = login()
     add_teacher(pid)
-
-if __name__ == '__main__':
-    run_main()
+    
+    
+run_main()
