@@ -34,8 +34,7 @@ def add_teacher(pid):
         location_a = '%E5%AF%86%E4%BA%91%E5%8E%BF&',
         address = 'haha+',
         introduce = 'dddd',
-        type = '1'
-    )
+        type = '1')
 
     ## 添加教师
     r2 = requests.post(url=add_url,cookies=cookie,data=add_data)
