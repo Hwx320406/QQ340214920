@@ -1,6 +1,6 @@
 import requests
-login_url ='http://192.168.3.148/admin.php?m=mgr/admin.chklogin&ajax=1'
-add_url = 'http://192.168.3.148/admin.php?m=mgr/member2.saveMemberInfo&id='
+login_url ='http://localhost/admin.php?m=mgr/admin.chklogin&ajax=1'
+add_url = 'http://localhost/admin.php?m=mgr/member2.saveMemberInfo&id='
 
 
 def login():
