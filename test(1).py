@@ -21,7 +21,7 @@ def add_teacher(pid):
         'PHPSESSID': pid
     }
     add_data = dict(
-        username = '001',
+        username = '13811111111',
         realname = 'nibaba',
         password = '12345678',
         sex = '0',
