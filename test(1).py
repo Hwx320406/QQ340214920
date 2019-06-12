@@ -1,4 +1,7 @@
 import requests
+import sys
+import io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='gb18030')
 login_url ='http://localhost/admin.php?m=mgr/admin.chklogin&ajax=1'
 add_url = 'http://localhost/admin.php?m=mgr/member2.saveMemberInfo&id='
 
